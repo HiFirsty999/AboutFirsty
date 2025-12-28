@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background-color: darkgray;
+    color: white;
+}
+
+.Main {
+    display: list-item;
+    width: 100vh;
+}
+
+.Button {
+    height: 5vh;
+    width: 15vh;
+    background-color: red;
+
+    animation-name: ChangeColorAnimation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ChangeColorAnimation {
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    50% {
+        background-color: rgb(0, 255, 0);
+    }
+
+    100% {
+        background-color: rgb(0, 0, 255);
+    }
+}
