@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +9,7 @@
 </head>
 <body>
     <div class="Main">
-        <a href="index.html" id="LinkToMainPage"><span style="color: white;">- Click here to go back to main page</span></a>
+        <button class="Button" id="ToMainPage" onclick="ToMainPage()" onmouseenter='PointerEnter("ToMainPage")' onmouseleave='PointerLeave("ToMainPage")'>Go back to main page</button>
         <br>
         <br>
         <h1>Here are my project(s) and game(s):</h1>
@@ -19,6 +20,7 @@
         <br>
         <!--<button class="Button" id="ToPleaseSpeedINeedThis" onpointerenter='PointerEnter("ToPleaseSpeedINeedThis")' onpointerleave='PointerLeave("ToPleaseSpeedINeedThis")'>PleaseSpeedINeedThis</button>-->
     </div>
-    <script src="scripts/projectsscript.js"></script>
+    <script src="scripts/mainscript.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

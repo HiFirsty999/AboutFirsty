@@ -1,7 +1,11 @@
+const MainPageLink = "index.html";
+
 const GithubLink = "https://github.com/HiFirsty999";
 const YoutubeLink = "https://www.youtube.com/@Firsty_TheProgrammer";
 const TiktokLink = "https://www.tiktok.com/@fcfirstyboy";
 const ProjectsLink = "projects.html";
+
+const ClickerGameLink = "https://hifirsty999.github.io/ClickerGame/";
 
 function ChangeToGithub() {
     window.open(GithubLink);
@@ -19,14 +23,10 @@ function ViewProjects() {
     window.location.href = ProjectsLink;
 }
 
-function PointerEnter(ElementName) {
-    var UIElement = document.getElementById(ElementName);
-
-    UIElement.style.backgroundColor = "red";
+function ToMainPage() {
+    window.location.href = MainPageLink;
 }
 
-function PointerLeave(ElementName) {
-    var UIElement = document.getElementById(ElementName);
-
-    UIElement.style.backgroundColor = "orange";
+function ToClickerGame() {
+    window.open(ClickerGameLink);
 }
