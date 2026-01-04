@@ -3,6 +3,7 @@ const MainPageLink = "index.html";
 const GithubLink = "https://github.com/HiFirsty999";
 const YoutubeLink = "https://www.youtube.com/@Firsty_TheProgrammer";
 const TiktokLink = "https://www.tiktok.com/@fcfirstyboy";
+const ChessLink = "https://www.chess.com/member/hello_firsty";
 const ProjectsLink = "projects.html";
 
 const ClickerGameLink = "https://hifirsty999.github.io/ClickerGame/";
@@ -17,6 +18,10 @@ function ChangeToYoutube() {
 
 function ChangeToTiktok() {
     window.open(TiktokLink);
+}
+
+function ChangeToChess() {
+    window.open(ChessLink);
 }
 
 function ViewProjects() {
