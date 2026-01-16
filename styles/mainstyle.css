@@ -9,10 +9,16 @@ body {
 }
 
 .Button {
+    border: 0.3vh, solid, black;
+    border-radius: 0.5vh;
     height: 5vh;
     width: 15vh;
     background-color: grey;
     color: white;
-    border-radius: 0.5vh;
     cursor: pointer;
+}
+
+.Image {
+    border: 0.3vh, solid, black;
+    border-radius: 0.5vh;
 }
