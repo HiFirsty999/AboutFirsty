@@ -24,6 +24,8 @@ function ChangeToChess() {
     window.open(ChessLink);
 }
 
+//
+
 function ViewProjects() {
     window.location.href = ProjectsLink;
 }

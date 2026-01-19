@@ -6,31 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="styles/mainstyle.css">
+    <link rel="icon" type="image/png" href="images/GithubProfilePicture_1.png">
 </head>
 <body>
     <div class="Main">
         <h1>About me</h1>
-        <p>Hi, my name is Firsty,</p>
-        <p>I am a frontend developer, programmer, and a chess player!</p>
-        <p>Also, I have my profile links too! It's down here!</p>
+        <div class="Details">
+            <p>Hi, my name is <strong>Firsty</strong>,</p>
+            <p>I am a frontend developer, programmer, and a chess player!</p>
+            <p>Also, I have my profiles and projects links too! It's down here!</p>
+        </div>
         <br>
         <br>
         <h2>--Accounts</h2>
         <br>
         <br>
-        <button class="Button" id="ToGithub" onclick="ChangeToGithub()" onpointerenter='PointerEnter("ToGithub")' onpointerleave='PointerLeave("ToGithub")'>Github</button>
+        <button class="Button" id="ToGithub" onclick="ChangeToGithub()">Github</button>
         <br>
         <br>
-        <button class="Button" id="ToYoutube" onclick="ChangeToYoutube()" onpointerenter='PointerEnter("ToYoutube")' onpointerleave='PointerLeave("ToYoutube")'>Youtube</button>
+        <label>Details:</label>
+        <div class="AccDetails">
+            <img src="images/GithubProfilePicture_1.png" class="AccImage" id="GithubPPimg">
+            <label>Username: HiFirsty999</label>
+        </div>
         <br>
         <br>
-        <button class="Button" id="ToTiktok" onclick="ChangeToTiktok()" onpointerenter='PointerEnter("ToTiktok")' onpointerleave='PointerLeave("ToTiktok")'>Tiktok</button>
+        <abbr>--</abbr>
         <br>
         <br>
-        <button class="Button" id="ToChess" onclick="ChangeToChess()" onpointerenter='PointerEnter("ToChess")' onpointerleave='PointerLeave("ToChess")'>Chess.com</button>
+        <button class="Button" id="ToYoutube" onclick="ChangeToYoutube()">Youtube</button>
+        <br>
+        <br>
+        <label>Details:</label>
+        <div class="AccDetails">
+            <img src="images/YoutubeProfilePicture_1.png" class="AccImage" id="YoutubePPimg">
+            <label>Username: Firsty_TheProgrammer</label>
+        </div>
+        <br>
+        <br>
+        <abbr>--</abbr>
+        <br>
+        <br>
+        <button class="Button" id="ToTiktok" onclick="ChangeToTiktok()">Tiktok</button>
+        <br>
+        <br>
+        <label>Details:</label>
+        <div class="AccDetails">
+            <img src="images/TiktokProfilePicture_1.png" class="AccImage" id="TiktokPPimg">
+            <label>Username: fcfirstyboy</label>
+        </div>
+        <br>
+        <br>
+        <abbr>--</abbr>
+        <br>
+        <br>
+        <button class="Button" id="ToChess" onclick="ChangeToChess()">Chess.com</button>
+        <br>
+        <br>
+        <label>Details:</label>
+        <div class="AccDetails">
+            <img src="images/ChesscomProfilePicture_1.png" class="AccImage" id="ChesscomPPimg">
+            <label>Username: Hello_Firsty</label>
+        </div>
+        <br>
+        <br>
+        <abbr>--</abbr>
         <br>
         <br>
         <p><span style="color: lightgray;">Discord Username: hi_firsty</span></p>
+        <br>
+        <br>
+        <abbr>--</abbr>
         <br>
         <br>
         <p><span style="color: lightgray;">LINE:</span></p>
@@ -41,12 +87,6 @@
         <br>
         <br>
         <button class="Button" id="ViewProjects" onclick="ViewProjects()" onpointerenter='PointerEnter("ViewProjects")' onpointerleave='PointerLeave("ViewProjects")'>View Projects</button>
-        <br>
-        <br>
-        <h2>--Others</h2>
-        <p>None</p>
-        <br>
-        <br>
     </div>
     <script src="scripts/mainscript.js"></script>
     <script src="scripts/mainstyle.js"></script>

@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: cursive;
     background-color: rgb(50, 50, 50);
     color: white;
 }
@@ -9,6 +9,7 @@ body {
 }
 
 .Button {
+    font-family: cursive;
     border: 0.3vh, solid, black;
     border-radius: 0.5vh;
     height: 5vh;
@@ -18,9 +19,54 @@ body {
     cursor: pointer;
 }
 
+.Button:hover {
+    animation-name: mouseEnter;
+    animation-duration: 250ms;
+    animation-timing-function: ease-out, cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: forwards;
+}
+
+.Button:not(:hover) {
+    animation-name: mouseLeave;
+    animation-duration: 250ms;
+    animation-timing-function: ease-out, cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: forwards;
+}
+
 .Image {
     border: 0.3vh, solid, black;
     border-radius: 0.5vh;
     height: 15vh;
     width: 15vh;
+}
+
+.AccImage {
+    border: 0.3vh, solid, black;
+    border-radius: 3.14159265359vh;
+    height: 6vh;
+    width: 6vh;
+}
+
+@keyframes mouseEnter {
+    from {
+        background-color: grey;
+        color: white;
+    }
+
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+@keyframes mouseLeave {
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: white;
+    }
 }

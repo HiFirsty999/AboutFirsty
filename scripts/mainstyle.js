@@ -1,4 +1,4 @@
-function PointerEnter(ElementName) {
+/*function PointerEnter(ElementName) {
     var UIElement = document.getElementById(ElementName);
     
     UIElement.style.backgroundColor = "white";
@@ -10,4 +10,4 @@ function PointerLeave(ElementName) {
     
     UIElement.style.backgroundColor = "grey";
     UIElement.style.color = "white";
-}
+}*/
