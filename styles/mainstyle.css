@@ -1,5 +1,5 @@
 body {
-    font-family: cursive;
+    font-family: sans-serif;
     background-color: rgb(50, 50, 50);
     color: white;
 }
@@ -9,7 +9,7 @@ body {
 }
 
 .Button {
-    font-family: cursive;
+    font-family: sans-serif;
     border: 0.3vh, solid, black;
     border-radius: 0.5vh;
     height: 5vh;
