@@ -21,14 +21,14 @@ body {
 
 .Button:hover {
     animation-name: mouseEnter;
-    animation-duration: 500ms;
+    animation-duration: 300ms;
     animation-timing-function: ease-out, cubic-bezier(0.19, 1, 0.22, 1);
     animation-fill-mode: forwards;
 }
 
 .Button:not(:hover) {
     animation-name: mouseLeave;
-    animation-duration: 500ms;
+    animation-duration: 300ms;
     animation-timing-function: ease-out, cubic-bezier(0.19, 1, 0.22, 1);
     animation-fill-mode: forwards;
 }
