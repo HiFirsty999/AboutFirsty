@@ -8,6 +8,7 @@ const ProjectsLink = "projects.html";
 const Gmail = "mailto:firsty.ph@gmail.com";
 
 const ClickerGameLink = "https://hifirsty999.github.io/ClickerGame/";
+const MyFirstCalculatorLink = "https://hifirsty999.github.io/MyFirstCalculator/";
 
 //Accounts
 
@@ -41,6 +42,9 @@ function ToClickerGame() {
     window.open(ClickerGameLink);
 }
 
+function ToMyFirstCalculator() {
+    window.open(MyFirstCalculatorLink);
+}
 
 //Others
 
