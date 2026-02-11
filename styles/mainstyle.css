@@ -17,6 +17,9 @@ body {
     background-color: grey;
     color: white;
     cursor: pointer;
+
+    text-wrap: balance;
+    white-space: pre-wrap;
 }
 
 .Button:hover {
@@ -45,6 +48,11 @@ body {
     border-radius: 3.14159265359vh;
     height: 6vh;
     width: 6vh;
+}
+
+textarea {
+    height: 30vh;
+    width: 25vh;
 }
 
 @keyframes mouseEnter {
