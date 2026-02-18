@@ -1,7 +1,12 @@
 body {
-    font-family: sans-serif;
-    background-color: rgb(50, 50, 50);
-    color: white;
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+    animation-name: siteEnter;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .Main {
@@ -10,12 +15,12 @@ body {
 
 .Button {
     font-family: sans-serif;
-    border: 0.3vh, solid, black;
+    border: 0.3vh, solid, rgb(0, 0, 0);
     border-radius: 0.5vh;
     height: 5vh;
     width: 15vh;
-    background-color: grey;
-    color: white;
+    background-color: rgb(0, 0, 125);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 
     text-wrap: balance;
@@ -36,15 +41,19 @@ body {
     animation-fill-mode: forwards;
 }
 
+.Button:active {
+    background-color: rgb(0, 200, 55);
+}
+
 .Image {
-    border: 0.3vh, solid, black;
+    border: 0.3vh, solid, rgb(0, 0, 0);
     border-radius: 0.5vh;
-    height: 15vh;
-    width: 15vh;
+    height: 30vh;
+    width: 30vh;
 }
 
 .AccImage {
-    border: 0.3vh, solid, black;
+    border: 0.3vh, solid, rgb(0, 0, 0);
     border-radius: 3.14159265359vh;
     height: 6vh;
     width: 6vh;
@@ -57,24 +66,34 @@ textarea {
 
 @keyframes mouseEnter {
     from {
-        background-color: grey;
-        color: white;
+        background-color: rgb(0, 50, 125);
+        color: rgb(255, 255, 255);
     }
 
     to {
-        background-color: white;
-        color: black;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 }
 
 @keyframes mouseLeave {
     from {
-        background-color: white;
-        color: black;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
 
     to {
-        background-color: grey;
-        color: white;
+        background-color: rgb(0, 50, 125);
+        color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes siteEnter {
+    from {
+        background-color: rgb(0, 0, 0);
+    }
+
+    to {
+        background-color: rgb(0, 0, 50);
     }
 }
