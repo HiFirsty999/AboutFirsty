@@ -1,6 +1,6 @@
 const ToMainPageElement = document.getElementById("ToMainPage")
 
-const MainPageLink = "index.html";
+const MainPageLink = "/";
 
 const GithubLink = "https://github.com/HiFirsty999";
 const YoutubeLink = "https://www.youtube.com/@Firsty_TheProgrammer";
