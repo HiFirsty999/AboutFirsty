@@ -1,4 +1,4 @@
-const ToMainPageElement = document.getElementById("ToMainPage")
+const ToMainPageElement = document.getElementById("ToMainPage");
 
 const MainPageLink = "/";
 
@@ -13,6 +13,7 @@ const EmailSendLink = "email-send.html";
 
 const ClickerGameLink = "https://hifirsty999.github.io/ClickerGame/";
 const MyFirstCalculatorLink = "https://hifirsty999.github.io/MyFirstCalculator/";
+const ScreenSaver = "https://hifirsty999.github.io/ScreenSaver";
 
 //View Accounts
 
@@ -64,6 +65,10 @@ function ToClickerGame() {
 
 function ToMyFirstCalculator() {
     window.open(MyFirstCalculatorLink);
+}
+
+function ToScreenSaver() {
+    window.open(ScreenSaver);
 }
 
 //Others
